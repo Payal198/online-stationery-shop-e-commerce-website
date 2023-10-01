@@ -1,0 +1,222 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="Online_Stationery_Shop.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>online stationery shop</title>
+   <script src="https://cdn.tailwindcss.com"></script> 
+        <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .lg:h-full {
+            height: 239px;
+            width: 693px;
+        }
+        .lg:h-full {
+            height: 334px;
+            width: 686px;
+        }
+        .lg:h-full {
+            width: 650px;
+        }
+    </style>
+</head>
+<body style="background-image:url(https://wallpapercave.com/wp/wp4477851.jpg)">
+    <form id="form1" runat="server">
+    <div>
+    
+        
+<%--<div class="relative bg-white overflow-hidden"style="background-image:url(https://wallpapercave.com/wp/wp4477851.jpg)">--%>
+  <div class="max-w-7xl mx-auto">
+    <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+      <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <polygon points="50,0 100,0 50,100 0,100" />
+      </svg>
+
+      <div >
+          <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+          <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+            <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+              <div class="flex items-center justify-between w-full md:w-auto">
+                <a href="#">
+                  <span class="sr-only">payal</span>
+                  <img class="h-8 w-auto sm:h-14" src="https://previews.123rf.com/images/fouaddesigns/fouaddesigns1604/fouaddesigns160400276/55104494-flat-vector-icon-illustration-of-stationery-set-isolated-on-white.jpg">
+                </a>
+                <div class="-mr-2 flex items-center md:hidden">
+                  <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <!-- Heroicon name: outline/menu -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+              <a href="Default.aspx" class="font-medium text-indigo-600 hover:text-indigo-500">home</a>
+
+              <a href="aboutus.aspx" class="font-medium text-indigo-600 hover:text-indigo-500">about</a>
+
+              <a href="AddToCart.aspx" class="font-medium text-indigo-600 hover:text-indigo-500">cart</a>
+
+              <a href="ContactUs.aspx" class="font-medium text-indigo-600 hover:text-indigo-500">contact us</a>
+
+              <a href="Registration.aspx" class="font-medium text-indigo-600 hover:text-indigo-500">sign in</a>
+
+            </div>
+                 <span class="sr-only">payal</span>
+                
+          </nav>
+
+        </div>
+         <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+          <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+            <div class="px-5 pt-4 flex items-center justify-between">
+              <div>
+                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" >
+              </div>
+              <div class="-mr-2">
+                <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <span class="sr-only">Close main menu</span>
+                  <!-- Heroicon name: outline/x -->
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        </div>
+      </div>
+</div>
+       <%--<asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>--%>
+       
+<%--            containt--%>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             </asp:ContentPlaceHolder>   
+<%--containt end here--%>
+     <footer class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-red-500 rounded-full" viewBox="0 0 24 24">
+          <path d=""></path>
+        </svg>
+        <span class="ml-3 text-xl">stationery shop</span>
+      </a>
+      <p class="mt-2 text-sm text-gray-500">shoping from home </p>
+    </div>
+    <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">notebook</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">A4 notebook ruled</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">A4 notebook unruled</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">A4 notebook single line</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">A4 notebook ruled 200 pages</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">pens</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">ballpoint pens </a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">fountain pens</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">marker pens</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">gel pens</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">pencils</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">graphite pencils</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">colored pencil</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">HB pencils</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">lead pencil</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">papers</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">card stock</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">cardboard</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">tracing papers</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">newsprint</a>
+          </li>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-100">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 payal
+        <a href="" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">patil</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    </form>
+</body>
+</html>
